@@ -16,32 +16,32 @@ int main()
     // condition for performing the operations 
     if(o==1)
     {
-        printf("%d is the sum",n+m);
+        printf("%d is the sum\n",n+m);
     }
     else if(o==2)
     {
-        printf("%d is the difference",n-m);
+        printf("%d is the difference\n",n-m);
     }
     else if(o==3)
     {
-        printf("%d is the multiplication",n*m);
+        printf("%d is the multiplication\n",n*m);
     }
     else if (o==4)
     {
       if(n!=0&&m!=0)
-        printf("%d is the division",n/m);
+        printf("%d is the division\n",n/m);
       else
       {
-        printf("not available for non positive or zero as input");
+        printf("not available for non positive or zero as input\n");
       }
     }
     else if(o==5)
     {
         if(n!=0&&m!=0)
-                printf("%d is the modulus division",n%m);
+                printf("%d is the modulus division\n",n%m);
       else
       {
-        printf("not available for non positive or zero as input");
+        printf("not available for non positive or zero as input\n");
     }
     }
 }
