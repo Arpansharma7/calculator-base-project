@@ -32,7 +32,7 @@ int main()
         printf("%d is the division\n",n/m);
       else
       {
-        printf("not available for non positive or zero as input\n");
+        printf("not available for second number is zero as input\n");
       }
     }
     else if(o==5)
@@ -41,7 +41,7 @@ int main()
                 printf("%d is the modulus division\n",n%m);
       else
       {
-        printf("not available for non positive or zero as input\n");
+        printf("not available for second number is zero as input\n");
     }
     }
 }
