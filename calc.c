@@ -18,38 +18,30 @@ int main()
     {
         printf("%d is the sum",n+m);
     }
-    else
+    else if(o==2)
     {
-        if(o==2)
-        {
-            printf("%d is the difference",n-m);
-        }
-        else
-        {
-            if(o==3)
-            {
-                printf("%d is the multiplication",n*m);
-            }
-            else
-            {
-                if(o==4)
-                {
-                    printf("%d is the division",n/m);
-                }
-                else
-                {
-                    if(o==5)
-                    {
-                        printf("%d is the modulus (remainder)",n%m);
-                    }
-                    else 
-                    {
-                        printf("invalid input\n");
-                    }
-                }
-            }
-        }
+        printf("%d is the difference",n-m);
     }
-    printf("\n");
-
+    else if(o==3)
+    {
+        printf("%d is the multiplication",n*m);
+    }
+    else if (o==4)
+    {
+      if(n!=0&&m!=0)
+        printf("%d is the division",n/m);
+      else
+      {
+        prinf("not available for non positive or zero as input");
+      }
+    }
+    else if(o==5)
+    {
+        if(n!=0&&m!=0)
+                printf("%d is the modulus division",n%m);
+      else
+      {
+        prinf("not available for non positive or zero as input");
+    }
+    }
 }
