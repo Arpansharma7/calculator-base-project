@@ -28,7 +28,7 @@ int main()
     }
     else if (o==4)
     {
-      if(n!=0&&m!=0)
+      if(n!=0)
         printf("%d is the division\n",n/m);
       else
       {
@@ -37,7 +37,7 @@ int main()
     }
     else if(o==5)
     {
-        if(n!=0&&m!=0)
+        if(n!=0)
                 printf("%d is the modulus division\n",n%m);
       else
       {
